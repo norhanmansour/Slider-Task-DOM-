@@ -1,0 +1,42 @@
+.lightBoxContainer {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.lightBoxItem {
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/6.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#next,
+#prev {
+    cursor: pointer;
+}
+
+h1 {
+    color: deeppink;
+    font-family: 'Dancing Script', cursive;
+}
+
+.caption {
+    background-color: deeppink;
+}
