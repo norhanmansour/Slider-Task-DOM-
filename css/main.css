@@ -8,6 +8,10 @@
     display: none;
 }
 
+h3 {
+    color: white;
+}
+
 .lightBoxItem {
     width: 50%;
     height: 500px;
